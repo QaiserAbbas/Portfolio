@@ -9,9 +9,14 @@ import {
 
 const data = [
   {
-    id: 1,
+    id: 0,
     icon: <FaSkype className="social-icon"></FaSkype>,
-    url: "https://join.skype.com/invite/jrfjXssIRha1",
+    url: "https://web.facebook.com/Qaiser.Abbas.67",
+  },
+  {
+    id: 1,
+    icon: <FaFacebook className="social-icon"></FaFacebook>,
+    url: "https://web.facebook.com/Qaiser.Abbas.67",
   },
   {
     id: 2,
@@ -20,24 +25,19 @@ const data = [
   },
   {
     id: 3,
-    icon: <FaTwitter className="social-icon"></FaTwitter>,
-    url: "https://twitter.com/Qaiser_Abas",
-  },
-  {
-    id: 4,
-    icon: <FaFacebook className="social-icon"></FaFacebook>,
-    url: "https://web.facebook.com/Qaiser.Abbas.67",
+    icon: <FaInstagram className="social-icon"></FaInstagram>,
+    url: "https://www.instagram.com/qaiser_abas/",
   },
   {
     id: 5,
-    icon: <FaInstagram className="social-icon"></FaInstagram>,
-    url: "https://www.instagram.com/qaiser_abas/",
-  }
+    icon: <FaTwitter className="social-icon"></FaTwitter>,
+    url: "https://twitter.com/Qaiser_Abas",
+  },
 ]
 const links = data.map(link => {
   return (
-    <li key={link.id} style={{cusrsor: 'pointer'}}>
-      <a target="_blank" href={link.url} className="social-link-2" rel="noreferrer" >
+    <li key={link.id}>
+      <a href={link.url} className="social-link-2">
         {link.icon}
       </a>
     </li>

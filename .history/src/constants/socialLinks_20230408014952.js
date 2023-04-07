@@ -36,8 +36,8 @@ const data = [
 ]
 const links = data.map(link => {
   return (
-    <li key={link.id} style={{cusrsor: 'pointer'}}>
-      <a target="_blank" href={link.url} className="social-link-2" rel="noreferrer" >
+    <li key={link.id}>
+      <a target="_blank" href={link.url} className="social-link-2">
         {link.icon}
       </a>
     </li>

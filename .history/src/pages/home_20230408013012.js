@@ -10,7 +10,7 @@ import SEO from "../components/SEO";
 const home = () => {
   return (
     <Layout>
-      <SEO title="Portfolio" description="Qaiser Abbas Frontend Develope, Shopify Expert, Wordpress Expert, ReactJS Expert, Mobile App Developer" />
+      <SEO title="Portfolio" description="Qaiser Abbas Frontend Develope, Shopify Expert, Wordpress Expert, ReactJS Expert" />
       <Hero />
       <Services />
       <Jobs />

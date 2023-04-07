@@ -11,7 +11,7 @@ const data = [
   {
     id: 1,
     icon: <FaSkype className="social-icon"></FaSkype>,
-    url: "https://join.skype.com/invite/jrfjXssIRha1",
+    url: "https://web.facebook.com/Qaiser.Abbas.67",
   },
   {
     id: 2,
@@ -36,8 +36,8 @@ const data = [
 ]
 const links = data.map(link => {
   return (
-    <li key={link.id} style={{cusrsor: 'pointer'}}>
-      <a target="_blank" href={link.url} className="social-link-2" rel="noreferrer" >
+    <li key={link.id}>
+      <a href={link.url} className="social-link-2">
         {link.icon}
       </a>
     </li>

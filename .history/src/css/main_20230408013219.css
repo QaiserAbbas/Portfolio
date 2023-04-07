@@ -75,7 +75,6 @@ ul {
 }
 a {
   text-decoration: none;
-  cursor: pointer !important;
 }
 
 h1,
@@ -195,9 +194,6 @@ p {
   width: 32rem;
   display: flex;
   justify-content: flex-start;
-  width: 100%;
-  column-gap: 10px;
-  cursor: pointer;
 }
 @media (max-width: 767px) {
   .social-links {

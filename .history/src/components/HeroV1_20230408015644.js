@@ -47,9 +47,9 @@ const HeroV1 = () => {
             {/* <Gigs /> */}
             <SocialLinks /> 
             <div className="contact-us-btn">
-              <Link to="/contact" className="btn">
+              <a href="/contact" className="btn">
                 contact me
-              </Link>
+              </a>
             </div>
             {/* <SocialLinks /> */}
           </div>
