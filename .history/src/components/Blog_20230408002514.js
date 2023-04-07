@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 
 const Blog = ({ id, title, image, date, category, slug, desc }) => {
   return (
-    <a target="_blank" href={`${slug}`} className="blog" key={id} rel="noreferrer">
+    <a about="_blank" href={`${slug}`} className="blog" key={id}>
       <article>
         {image && (
           <img alt="blog-img" src={require(`../images/${image}`)} className="blog-img" />

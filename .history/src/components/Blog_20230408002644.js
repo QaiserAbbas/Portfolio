@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 
 const Blog = ({ id, title, image, date, category, slug, desc }) => {
   return (
-    <a target="_blank" href={`${slug}`} className="blog" key={id} rel="noreferrer">
+    <Link target="_blank" to={`${slug}`} className="blog" key={id}>
       <article>
         {image && (
           <img alt="blog-img" src={require(`../images/${image}`)} className="blog-img" />
@@ -18,7 +18,7 @@ const Blog = ({ id, title, image, date, category, slug, desc }) => {
           </div>
         </div>
       </article>
-    </a>
+    </Link>
   )
 }
 

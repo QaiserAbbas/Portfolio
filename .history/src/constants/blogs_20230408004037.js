@@ -60,7 +60,7 @@ const blogs = [
     'category':'REACT',
     'desc':`ReactJS is a popular JavaScript library for building user interfaces, and it comes with many built-in features that make developing applications easier and faster. Two of these features are useState and useImmer. Both are hooks that enable developers to manage the state of a React component, but they have different approaches and use cases. In this blog post, we'll explore the differences between useState and useImmer, their pros and cons, and when to use them.`,
     'slug':'https://qaiser-abbas.medium.com/usestate-vs-useimmer-a-comparison-of-two-react-state-management-hooks-379362a15559',
-    'image':'immer.png'
+    'image':'immer.jpg'
   },
   {
     'id': '8',
@@ -68,17 +68,17 @@ const blogs = [
     'date':'Apr 02 2023',
     'category':'CSS',
     'desc':`CSS Flexbox is a powerful layout system that allows designers and developers to create flexible and responsive layouts for their web pages. Flexbox allows you to control the placement, size, and alignment of elements on your page, making it easy to create dynamic layouts that adapt to different screen sizes and devices. In this blog, we will discuss how to use CSS Flexbox efficiently and effectively.`,
-    'slug':'https://qaiser-abbas.medium.com/mastering-css-flexbox-a-comprehensive-guide-to-creating-dynamic-and-responsive-layouts-5898e1c43225',
-    'image':'flex.png'
+    'slug':'https://qaiser-abbas.medium.com/usestate-vs-useimmer-a-comparison-of-two-react-state-management-hooks-379362a15559',
+    'image':'flex.jpg'
   },
   {
     'id': '9',
-    'title':'Data Binding in React',
-    'date':'Apr 03 2023',
+    'title':'useState vs useImmer: A Comparison of Two React State Management Hooks',
+    'date':'Mar 23 2023',
     'category':'REACT',
-    'desc':`Data binding is a powerful concept that is widely used in modern web development. It enables the creation of dynamic and responsive user interfaces by linking the data model with the user interface. React is a popular JavaScript library used for building dynamic and interactive web applications. React provides a declarative and efficient way to build user interfaces, and it also has built-in support for data binding. In this blog post, we will explore data binding in React in detail.`,
-    'slug':'https://qaiser-abbas.medium.com/data-binding-in-react-e4b1bfb9ea91',
-    'image':'binding.png'
+    'desc':`ReactJS is a popular JavaScript library for building user interfaces, and it comes with many built-in features that make developing applications easier and faster. Two of these features are useState and useImmer. Both are hooks that enable developers to manage the state of a React component, but they have different approaches and use cases. In this blog post, we'll explore the differences between useState and useImmer, their pros and cons, and when to use them.`,
+    'slug':'https://qaiser-abbas.medium.com/usestate-vs-useimmer-a-comparison-of-two-react-state-management-hooks-379362a15559',
+    'image':'immer.jpg'
   }
 ]
 
