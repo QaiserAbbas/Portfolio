@@ -548,7 +548,6 @@ Hero V1
 @media  (max-width: 768px) {
   .hero-v1 {
     margin-top: -20px;
-    min-height: 780px;
   }
 }
 @media screen and (min-width: 992px) {
