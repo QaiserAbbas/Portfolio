@@ -2,7 +2,6 @@ import { React } from "react";
 import Layout from "../components/Layout";
 import Title from "../components/Title";
 import SEO from "../components/SEO";
-import mainImage from "../assets/hero-img.png";
 
 const About = () => {
   const stack = [
@@ -61,7 +60,7 @@ const About = () => {
       <SEO title="About Me" description="about webdev" />
       <section className="about-page">
         <div className="section-center about-center">
-          <img alt="about-img" src={mainImage} className="about-img" />
+          <img alt="about-img" src='https://cdn.shopify.com/s/files/1/0337/5077/7994/files/qaiser-shopify.png?v=1771185157' className="about-img" />
           <article className="about-text">
             <Title title="About Me" />
             <div style={{height: '400px', overflowY: 'scroll'}}>

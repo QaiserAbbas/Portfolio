@@ -1,9 +1,7 @@
-import { React } from "react";
 import SocialLinks from "../constants/socialLinks";
 import { Link } from "react-router-dom";
-import mainImage from "../assets/hero-img.png";
 import Typewriter from "typewriter-effect";
-import Gigs from "./Gigs";
+
 const HeroV1 = () => {
   return (
     <header className="hero-v1">
@@ -54,7 +52,7 @@ const HeroV1 = () => {
             {/* <SocialLinks /> */}
           </div>
         </article>
-        <img alt="hero-v1-img" src={mainImage} className="hero-v1-img" />
+        <img alt="hero-v1-img" src='https://cdn.shopify.com/s/files/1/0337/5077/7994/files/qaiser-shopify.png?v=1771185157' className="hero-v1-img" />
       </div>
     </header>
   );
