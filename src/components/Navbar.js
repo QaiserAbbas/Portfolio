@@ -3,6 +3,7 @@ import logo from "../assets/logo.png";
 import { FaAlignRight } from "react-icons/fa";
 import Links from "../constants/links";
 import { Link } from 'react-router-dom'
+import ThemeToggle from "./ThemeToggle";
 
 const Navbar = ({ toggleSidebar }) => {
   // useLayoutEffect(() => {
@@ -16,9 +17,12 @@ const Navbar = ({ toggleSidebar }) => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to='/'> <img src={logo} alt="logo" /></Link>
-          <button type="button" className="toggle-btn" onClick={toggleSidebar}>
-            <FaAlignRight></FaAlignRight>
-          </button>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <ThemeToggle />
+            <button type="button" className="toggle-btn" onClick={toggleSidebar}>
+              <FaAlignRight></FaAlignRight>
+            </button>
+          </div>
         </div>
         <Links styleClass="nav-links"></Links>
       </div>

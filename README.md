@@ -1,4 +1,34 @@
-# Getting Started with Create React App
+# Qaiser Abbas - Portfolio
+
+A modern, responsive portfolio built with React featuring a complete light/dark theme system.
+
+## 🌟 Features
+
+- ✅ **Light & Dark Theme Toggle** - Seamless theme switching with system preference detection
+- ✅ **Responsive Design** - Works perfectly on all devices
+- ✅ **Fast Performance** - Optimized React components
+- ✅ **Modern UI** - Clean and professional design
+- ✅ **Blog System** - Share your thoughts and insights
+- ✅ **Project Showcase** - Display your best work
+- ✅ **Contact Form** - Easy way for people to reach you
+
+## 🎨 Theme System
+
+This portfolio includes a production-ready theme toggle system:
+
+- 🌙 Dark mode and ☀️ Light mode
+- Automatic system preference detection
+- Persistent theme selection (localStorage)
+- Smooth transitions between themes
+- Applied to ALL components
+
+**Theme Toggle**: Look for the moon/sun icon in the navigation bar!
+
+**Demo Page**: Visit `/theme-demo` to see the theme system in action.
+
+**Documentation**: See [THEME_TOGGLE_GUIDE.md](THEME_TOGGLE_GUIDE.md) and [IMPLEMENTATION_SUMMARY.md](IMPLEMENTATION_SUMMARY.md) for complete details.
+
+## 🚀 Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
