@@ -716,6 +716,9 @@ Jobs
 ===============
 */
 
+.jobs{
+    background: var(--clr-grey-10);
+}
 .jobs-center {
   width: 80vw;
   margin: 0 auto;
@@ -812,7 +815,6 @@ Projects
 ===============
 */
 .projects {
-  background: var(--clr-grey-10);
 }
 .project {
   display: grid;
@@ -842,7 +844,8 @@ Projects
   opacity: 0;
 }
 .project-info {
-  background: var(--clr-white);
+  background: var(--clr-grey-10);
+  
   padding: 1rem 2rem;
   border-bottom-left-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
@@ -1047,7 +1050,7 @@ Footer
   color: var(--clr-white);
 }
 .footer .social-link-2 {
-  color: var(--clr-white);
+  color: white;
 }
 .footer .social-link-2:hover {
   color: var(--clr-primary-5);

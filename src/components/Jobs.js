@@ -9,9 +9,39 @@ const Jobs = () => {
   const jobs = [
     {
       'id':'1',
+      'company':'Conversions King',
+      'position':'Shopify Plus Expert / Sr. Web Developer ',
+      'date':'May 2024 - Present',
+      'desc':[
+        
+        {
+          'id':'1',
+          'name':'Identify user and system requirements for new websites and applications'
+        },
+        {
+          'id':'2',
+          'name':'Developing new user-facing features'
+        },
+        {
+          'id':'3',
+          'name':'Build reusable code and libraries for future use'
+        },
+        {
+          'id':'4',
+          'name':'Ensure the technical feasibility of UI/UX designs'
+        },
+        {
+          'id':'5',
+          'name':'Optimize application for maximum speed and scalability'
+        }
+
+      ]
+    },
+    {
+      'id':'1',
       'company':'Infinity Creatives LLC',
       'position':'Senior Web Developer',
-      'date':'Feb 2018 - Present',
+      'date':'Feb 2018 - May 2018',
       'desc':[
         
         {
