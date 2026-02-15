@@ -4,15 +4,9 @@ import {
   FaLinkedin,
   FaTwitter,
   FaInstagram,
-  FaSkype,
 } from "react-icons/fa";
 
 const data = [
-  {
-    id: 1,
-    icon: <FaSkype className="social-icon"></FaSkype>,
-    url: "https://join.skype.com/invite/jrfjXssIRha1",
-  },
   {
     id: 2,
     icon: <FaLinkedin className="social-icon"></FaLinkedin>,
@@ -36,7 +30,7 @@ const data = [
 ]
 const links = data.map(link => {
   return (
-    <li key={link.id} style={{cusrsor: 'pointer'}}>
+    <li key={link.id} style={{cursor: 'pointer'}}>
       <a target="_blank" href={link.url} className="social-link-2" rel="noreferrer" >
         {link.icon}
       </a>

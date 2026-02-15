@@ -4,6 +4,7 @@ import Contact from "./pages/contact";
 import About from "./pages/about";
 import Projects from "./pages/projects";
 import BlogsTemplate from "./templates/blog-template";
+import ThemeDemo from "./pages/theme-demo";
 
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -18,6 +19,7 @@ function App() {
         <Route path="projects" element={<Projects />} />
         <Route path="about" element={<About />} />
         <Route path="blogs/:slug" element={<BlogsTemplate />} />
+        <Route path="theme-demo" element={<ThemeDemo />} />
       </Routes>
     </BrowserRouter>
   );

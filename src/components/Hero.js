@@ -1,7 +1,6 @@
 import { React } from "react";
 import SocialLinks from "../constants/socialLinks";
 import { Link } from "react-router-dom";
-import mainImage from "../assets/hero-img.png";
 import Typewriter from "typewriter-effect";
 
 const Hero = () => {
@@ -46,7 +45,7 @@ const Hero = () => {
             <SocialLinks />
           </div>
         </article>
-        <img alt="hero-img" src={mainImage} className="hero-img" />
+        <img alt="hero-img" src='https://cdn.shopify.com/s/files/1/0337/5077/7994/files/qaiser-shopify.png?v=1771185157' className="hero-img" />
       </div>
     </header>
   );

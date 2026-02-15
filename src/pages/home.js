@@ -13,8 +13,8 @@ const home = () => {
       <SEO title="Portfolio" description="Qaiser Abbas Frontend Develope, Shopify Expert, Wordpress Expert, ReactJS Expert, Mobile App Developer" />
       <Hero />
       <Services />
-      <Jobs />
       <Projects title="featured projects" showLink limit="3"/>
+      <Jobs />
       <Blogs title="latest articles" showLink limit="3"/>
     </Layout>
   );
