@@ -95,7 +95,7 @@ export const applyTheme = (theme) => {
   localStorage.setItem('theme', theme);
 };
 
-export default {
+const themeUtils = {
   getCurrentTheme,
   isDarkMode,
   getThemeColor,
@@ -104,3 +104,5 @@ export default {
   getCSSVariable,
   applyTheme,
 };
+
+export default themeUtils;

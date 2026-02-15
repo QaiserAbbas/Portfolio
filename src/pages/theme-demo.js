@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import useTheme from '../hooks/useTheme';
-import { THEME_COLORS, getCSSVariable } from '../utils/themeUtils';
+import { getCSSVariable } from '../utils/themeUtils';
 
 /**
  * Theme Demo Page
