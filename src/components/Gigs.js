@@ -1,9 +1,6 @@
 import React from "react"
 import { SiSemanticuireact } from "react-icons/si";
 import { FaAppStore, FaShopify, FaWordpress } from "react-icons/fa";
-// import fiverrProfile from "../images/fiverr-profile.png";
-// import upworkProfile from "../images/upwork-profile.png";
-
 
 
 const Gigs = () => {
