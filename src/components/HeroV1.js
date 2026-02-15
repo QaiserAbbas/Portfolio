@@ -42,14 +42,12 @@ const HeroV1 = () => {
                 }}
               />
             </div>
-            {/* <Gigs /> */}
             <SocialLinks /> 
             <div className="contact-us-btn">
               <Link to="/contact" className="btn">
                 contact me
               </Link>
             </div>
-            {/* <SocialLinks /> */}
           </div>
         </article>
         <img alt="hero-v1-img" src='https://cdn.shopify.com/s/files/1/0337/5077/7994/files/qaiser-shopify.png?v=1771185157' className="hero-v1-img" />
