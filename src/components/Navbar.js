@@ -1,5 +1,6 @@
 import { React, useEffect } from "react";
 import logo from "../assets/logo.png";
+import logo_white from "../assets/logo_white.png";
 import { FaAlignRight } from "react-icons/fa";
 import Links from "../constants/links";
 import { Link } from "react-router-dom";
@@ -17,8 +18,8 @@ const Navbar = ({ toggleSidebar }) => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            {" "}
-            <img src={logo} alt="logo" />
+            <img className="logo-white" src={logo_white} alt="logo" />
+            <img className="logo-simple" src={logo} alt="logo" />
           </Link>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", justifyContent: "end", width: "100%" }}>

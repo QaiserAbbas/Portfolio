@@ -95,6 +95,18 @@ html.dark {
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
 }
+.logo-white {
+  display: none;
+}
+.logo-simple {
+  display: block;
+}
+html.dark .logo-white {
+  display: block;
+}
+html.dark .logo-simple {
+  display: none;
+}
 /*
 =============== 
 Global Styles
