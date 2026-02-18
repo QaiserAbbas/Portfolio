@@ -23,18 +23,24 @@ const HeroV1 = () => {
                   typewriter
 
                     .typeString(
-                      '<h4 style="font-size: 22px;">Shopify Expert</h4>'
+                      '<h4 style="font-size: 22px;">Shopify Plus Developer</h4>',
                     )
 
                     .pauseFor(1300)
                     .deleteAll()
                     .typeString(
-                      '<h4 style="font-size: 22px;">Frontend Web Developer</h4>'
+                      '<h4 style="font-size: 22px;">Shopify Growth Engineer</h4>',
                     )
                     .pauseFor(1300)
                     .deleteAll()
                     .typeString(
-                      '<h4 style="font-size: 22px;">Wordpress Expert</h4>'
+                      '<h4 style="font-size: 22px;">Shopify App Developer</h4>',
+                    )
+
+                    .pauseFor(1300)
+                    .deleteAll()
+                    .typeString(
+                      '<h4 style="font-size: 22px;">Frontend Web Developer</h4>',
                     )
                     .pauseFor(1300)
                     .deleteAll()
@@ -42,7 +48,7 @@ const HeroV1 = () => {
                 }}
               />
             </div>
-            <SocialLinks /> 
+            <SocialLinks />
             <div className="contact-us-btn">
               <Link to="/contact" className="btn">
                 contact me
@@ -50,7 +56,11 @@ const HeroV1 = () => {
             </div>
           </div>
         </article>
-        <img alt="hero-v1-img" src='https://cdn.shopify.com/s/files/1/0337/5077/7994/files/qaiser-shopify.png?v=1771185157' className="hero-v1-img" />
+        <img
+          alt="hero-v1-img"
+          src="https://cdn.shopify.com/s/files/1/0337/5077/7994/files/qaiser-shopify.png?v=1771185157"
+          className="hero-v1-img"
+        />
       </div>
     </header>
   );

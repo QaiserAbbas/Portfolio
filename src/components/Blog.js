@@ -6,7 +6,7 @@ const Blog = ({ id, title, image, date, category, slug, desc }) => {
     <a target="_blank" href={`${slug}`} className="blog" key={id} rel="noreferrer">
       <article>
         {image && (
-          <img alt="blog-img" src={require(`../images/${image}`)} className="blog-img" />
+          <img alt="blog-img" src={image} className="blog-img" />
         )}
         <div className="blog-card">
           <h4>{title}</h4>
