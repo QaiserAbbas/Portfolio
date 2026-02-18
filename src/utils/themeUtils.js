@@ -17,7 +17,7 @@ export const getCurrentTheme = () => {
     return 'dark';
   }
 
-  return 'light';
+  return 'dark';
 };
 
 /**

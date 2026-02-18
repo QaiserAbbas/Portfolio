@@ -6,7 +6,7 @@ const Project = ({ description, title, stack, url, image, index }) => {
     <article className="project">
       {image && 
       <div className="project-img">
-        <img alt="project-img" src={require(`../images/${image}`)} style={{width: '100%', height:'100%', objectFit:'cover'}} />
+        <img alt="project-img" src={image} style={{width: '100%', height:'100%', objectFit:'cover'}} />
       </div>
       }
       <div className="project-info">

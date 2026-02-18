@@ -22,7 +22,7 @@ const useTheme = () => {
       return 'dark';
     }
 
-    return 'light';
+    return 'dark';
   };
 
   const [theme, setTheme] = useState(getInitialTheme);
