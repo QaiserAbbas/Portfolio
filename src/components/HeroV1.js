@@ -58,7 +58,7 @@ const HeroV1 = () => {
         </article>
         <img
           alt="hero-v1-img"
-          src="https://cdn.shopify.com/s/files/1/0337/5077/7994/files/qaiser-shopify.png?v=1771185157"
+          src="https://cdn.shopify.com/s/files/1/0337/5077/7994/files/qaiser-shopify-plus.png?v=1771883523"
           className="hero-v1-img"
         />
       </div>
